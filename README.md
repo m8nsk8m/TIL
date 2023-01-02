@@ -16,4 +16,9 @@
     * Branch
     * GitHub Flow
 
+* Python 01
+   * Python
+   * 변수
+   * 컨테이너
+   * 리스트
 
