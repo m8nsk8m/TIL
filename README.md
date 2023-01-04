@@ -17,8 +17,13 @@
     * GitHub Flow
 
 * Python 01
-   * Python
-   * 변수
-   * 컨테이너
-   * 리스트
+    * Python
+    * 변수
+    * 컨테이너
+    * 리스트
+
+* Python 02
+    * 레인지
+    * while 문
+    * for 문
 
