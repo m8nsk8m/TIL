@@ -16,14 +16,34 @@
     * Branch
     * GitHub Flow
 
-* Python 01
-    * Python
-    * 변수
-    * 컨테이너
-    * 리스트
+* Python 01 
+    * Python 소개
+    * 변수와 데이터 타입
+
 
 * Python 02
-    * 레인지
-    * while 문
-    * for 문
+    * 조건문
+    * 반복문
+    * break 와 continue
 
+
+* Python 03 
+    * 내장 함수
+    * 매개 변수
+    * 사용자 정의 함수
+    * 메서드
+
+* Python 04
+    * 리스트 타입
+    * 튜플 타입
+    * 세트 타입
+    * 딕셔너리 타입
+
+* Python 05
+    * 클래스
+    * 상속
+
+* Python 06
+    * 파일 입출력
+    * 모듈
+    * 예외처리

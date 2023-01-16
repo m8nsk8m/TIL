@@ -22,6 +22,12 @@
     - 문자열을 묶을 때 동일한 문장부호 사용
 
  * 메서드
+   - `{} + format()`
+      - print('{} {}'.format['hi', 'python'])
+   
+   - `f-string`
+      - print(f'어쩌구 저쩌구 {hi}, {python})
+   
    - `s.find(x)`
       - x의 첫 번째 위치를 반환, 없으면 -1을 반환
    
@@ -212,7 +218,11 @@
          # None
          print(drama.get('director', 0)) 0은 초기값으로 설정됨
          # 0
-         
+
+   - `d.update()`
+   
+
+
    - `.pop(key, )`
       - key가 딕셔너리에 있으면 제거하고 해당 값을 반환
       - 그렇지 않으면 default 반환

@@ -11,8 +11,11 @@
  * 리스트의 생성과 접근
     - 대괄호[] 혹은 list()를 통해 생성
     ```
-    리스트명 = [요소1, 요소2, 요소3]
-    another_list = list()
+    myList = [1, 2, 3, 4]
+    newList = myList[:]
+    newList2 = list(myList)
+
+    list = [] 빈 리스트도 생성가능
     ```
     - 순서가 있는 시퀀스로 인덱스를 통해 접근 가능
 
@@ -30,7 +33,7 @@
 
 
  * 리스트 값 추가/삭제
-    - 추가는 `.append()` 를 활용
+    - 추가는 `.append()` 를 활용 (맨 뒤에 추가됨)
     ```
     even_numbers = [2, 4, 6, 8]
     even_numbers.append(10)
@@ -38,11 +41,12 @@
     # [2, 4, 6, 8, 10]
     ```
 
-    - 삭제는 `.pop()` 을 활용
+    - 삭제는 `.pop()` 과 `remove()`를 활용
      ```
     even_numbers = [2, 4, 6, 8]
-    even_numbers.pop(0)
-    even_numbers
+    even_numbers.pop(0)  --> 원하는 위치의 값 삭제
+    even_numbers.remove('2')  --> 요소
+    print(even_numbers)
     # [4, 6, 8]
     ```
 
